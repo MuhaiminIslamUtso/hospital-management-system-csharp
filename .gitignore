@@ -1,0 +1,41 @@
+﻿# Visual Studio
+.vs/
+**/.vs/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+*.cache
+
+# User-specific IDE files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Temporary files and logs
+*.tmp
+*.log
+*.bak
+
+# Local database files
+*.mdf
+*.ldf
+*.ndf
+
+# NuGet packages
+**/packages/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+desktop.ini
