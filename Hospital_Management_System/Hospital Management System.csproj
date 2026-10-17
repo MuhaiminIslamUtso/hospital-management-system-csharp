@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F85D70DB-83EB-427C-9DA8-6C8C441B0D17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hospital_Management_System</RootNamespace>
+    <AssemblyName>Hospital Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.licensekey, Version=3.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext7.licensekey.3.1.6\lib\net45\itext.licensekey.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.9.0\lib\net462\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Absence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Absence.Designer.cs">
+      <DependentUpon>Absence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdDoctor.Designer.cs">
+      <DependentUpon>AdDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdEmployee.Designer.cs">
+      <DependentUpon>AdEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdHome.Designer.cs">
+      <DependentUpon>AdHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdNurse .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdNurse .Designer.cs">
+      <DependentUpon>AdNurse .cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdRoom.Designer.cs">
+      <DependentUpon>AdRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdTest.Designer.cs">
+      <DependentUpon>AdTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmountBarChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmountBarChart.Designer.cs">
+      <DependentUpon>AmountBarChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balance.Designer.cs">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chatbot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chatbot.Designer.cs">
+      <DependentUpon>Chatbot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReceipt.Designer.cs">
+      <DependentUpon>FrmReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogingFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogingFrom.Designer.cs">
+      <DependentUpon>LogingFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RcAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcAppointment.Designer.cs">
+      <DependentUpon>RcAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcBilling.Designer.cs">
+      <DependentUpon>RcBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcHome.Designer.cs">
+      <DependentUpon>RcHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcPatient.Designer.cs">
+      <DependentUpon>RcPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcRoom.Designer.cs">
+      <DependentUpon>RcRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RcTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RcTest.Designer.cs">
+      <DependentUpon>RcTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary.Designer.cs">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Absence.resx">
+      <DependentUpon>Absence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdDoctor.resx">
+      <DependentUpon>AdDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdEmployee.resx">
+      <DependentUpon>AdEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdHome.resx">
+      <DependentUpon>AdHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdNurse .resx">
+      <DependentUpon>AdNurse .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdRoom.resx">
+      <DependentUpon>AdRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdTest.resx">
+      <DependentUpon>AdTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmountBarChart.resx">
+      <DependentUpon>AmountBarChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balance.resx">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chatbot.resx">
+      <DependentUpon>Chatbot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReceipt.resx">
+      <DependentUpon>FrmReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogingFrom.resx">
+      <DependentUpon>LogingFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RcAppointment.resx">
+      <DependentUpon>RcAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcBilling.resx">
+      <DependentUpon>RcBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcHome.resx">
+      <DependentUpon>RcHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcPatient.resx">
+      <DependentUpon>RcPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcRoom.resx">
+      <DependentUpon>RcRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RcTest.resx">
+      <DependentUpon>RcTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chatbot-4071274_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chatbot-4071274_19201.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
