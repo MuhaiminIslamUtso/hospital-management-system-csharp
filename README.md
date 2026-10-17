@@ -6,7 +6,7 @@ A desktop-based Hospital Management System developed using C#, Windows Forms, an
 
 
 
-\## Project Overview
+\# Project Overview
 
 
 
@@ -14,7 +14,7 @@ This project demonstrates desktop application development with C#, object-orient
 
 
 
-\## Features
+\# Features
 
 
 
@@ -22,27 +22,27 @@ The application source code includes modules related to:
 
 
 
-\- \*\*User Authentication\*\* — Login interface and user access workflow.
+\- User Authentication\*\* — Login interface and user access workflow.
 
-\- \*\*Patient Management\*\* — Patient-related information and operations.
+\- Patient Management\*\* — Patient-related information and operations.
 
-\- \*\*Appointment Management\*\* — Appointment-related workflows.
+\- Appointment Management\*\* — Appointment-related workflows.
 
-\- \*\*Doctor Management\*\* — Doctor information and administration.
+\- Doctor Management\*\* — Doctor information and administration.
 
-\- \*\*Room Management\*\* — Hospital room-related operations.
+\- Room Management\*\* — Hospital room-related operations.
 
-\- \*\*Billing and Payments\*\* — Billing and balance-related modules.
+\- Billing and Payments\*\* — Billing and balance-related modules.
 
-\- \*\*Staff Management\*\* — Employee and staff administration.
+\- Staff Management\*\* — Employee and staff administration.
 
-\- \*\*Salary and Absence Management\*\* — Staff salary and absence-related modules.
+\- Salary and Absence Management\*\* — Staff salary and absence-related modules.
 
-\- \*\*Medical Tests\*\* — Test-related workflows.
+\- Medical Tests\*\* — Test-related workflows.
 
-\- \*\*Reporting and Charts\*\* — Financial or amount-related chart functionality.
+\- Reporting and Charts\*\* — Financial or amount-related chart functionality.
 
-\- \*\*Chatbot Interface\*\* — A chatbot-related application module.
+\- Chatbot Interface\*\* — A chatbot-related application module.
 
 
 
@@ -50,29 +50,27 @@ Feature availability depends on the implemented and configured functionality in 
 
 
 
-\## Technology Stack
+\# Technology Stack
 
 
 
-\- \*\*Language:\*\* C#
+\- Language:\*\* C#
 
-\- \*\*Desktop UI:\*\* Windows Forms
+\- Desktop UI: Windows Forms
 
-\- \*\*Framework:\*\* .NET Framework — confirm the exact version in the project configuration.
+\- Framework: .NET Framework — confirm the exact version in the project configuration.
 
-\- \*\*Database:\*\* Microsoft SQL Server
+\- Database: Microsoft SQL Server
 
-\- \*\*IDE:\*\* Microsoft Visual Studio
+\- IDE:\*\* Microsoft Visual Studio
 
-\- \*\*Database Tool:\*\* SQL Server Management Studio (SSMS)
-
-
-
-\## Project Structure
+\- Database Tool: SQL Server Management Studio (SSMS)
 
 
 
-```text
+\# Project Structure
+
+
 
 Hospital\_Management\_System/
 
@@ -98,7 +96,7 @@ Hospital\_Management\_System/
 
 └── README.md
 
-```
+
 
 
 
@@ -106,7 +104,7 @@ The exact contents may vary depending on the files included in the repository.
 
 
 
-\## Prerequisites
+\# Prerequisites
 
 
 
@@ -124,23 +122,19 @@ Before running the application, install:
 
 
 
-\## Setup and Installation
+\# Setup and Installation
 
 
 
-\### 1. Clone the Repository
+\## 1. Clone the Repository
 
 
-
-```bash
 
 git clone https://github.com/MuhaiminIslamUtso/hospital-management-system-csharp.git
 
-```
 
 
-
-\### 2. Open the Solution
+\## 2. Open the Solution
 
 
 
@@ -148,7 +142,7 @@ Open `Hospital Management System.sln` in Visual Studio from the application proj
 
 
 
-\### 3. Configure the Database
+\## 3. Configure the Database
 
 
 
@@ -164,7 +158,7 @@ Open `Hospital Management System.sln` in Visual Studio from the application proj
 
 
 
-\### 4. Restore Dependencies
+\## 4. Restore Dependencies
 
 
 
@@ -172,7 +166,7 @@ Restore the NuGet packages required by the project through Visual Studio.
 
 
 
-\### 5. Build and Run
+\## 5. Build and Run
 
 
 
@@ -198,15 +192,7 @@ Do not commit real credentials, private patient records, production database fil
 
 
 
-\## Screenshots
-
-
-
-Screenshots of the application's main interface, patient management, appointments, billing, and other verified modules can be added here.
-
-
-
-\## Project Purpose
+\# Project Purpose
 
 
 
@@ -214,7 +200,7 @@ This project was developed as a software development project to practice C#, Win
 
 
 
-\## Author
+\# Author
 
 
 
@@ -226,9 +212,7 @@ GitHub: \[MuhaiminIslamUtso](https://github.com/MuhaiminIslamUtso)
 
 
 
-\---
 
 
-
-\*This repository is intended for educational and portfolio purposes.\*
+N.B: This repository is intended for educational and portfolio purposes.
 
